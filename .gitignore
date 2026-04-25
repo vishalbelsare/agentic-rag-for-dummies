@@ -6,3 +6,5 @@ docs/
 __pycache__/
 .vscode/
 .env
+.venv/
+venv/

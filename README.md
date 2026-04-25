@@ -1185,10 +1185,12 @@ git clone https://github.com/GiovanniPasq/agentic-rag-for-dummies
 cd agentic-rag-for-dummies
 
 # Optional: create and activate a virtual environment
-# On macOS/Linux:
-python -m venv venv && source venv/bin/activate
-# On Windows:
-python -m venv venv && .\venv\Scripts\activate
+
+# macOS/Linux
+python -m venv .venv && source .venv/bin/activate
+
+# Windows
+python -m venv .venv && .\.venv\Scripts\activate
 
 # Install packages
 pip install -r requirements.txt
@@ -1196,7 +1198,7 @@ pip install -r requirements.txt
 
 #### 2. Run the Application
 ```bash
-python app.py
+python project/app.py
 ```
 
 #### 3. Ask Questions
